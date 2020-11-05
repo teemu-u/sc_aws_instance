@@ -9,4 +9,4 @@
   tasks:
     - name: Create AWS instance
       include_role:
-        name: role-instance
+        name: instance
