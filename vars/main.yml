@@ -1,0 +1,11 @@
+instance_name: example
+instance_flavor: t3.large
+instance_disk_size: 20
+type: ec2
+ec2_keypair: ""
+ec2_key_file: "" # "path/to/keyfile.pem"
+ec2_region: "eu-central-1"
+ec2_ami_id: ""
+ec2_os_type: "linux"
+# remove == true to delete an instance
+remove: false

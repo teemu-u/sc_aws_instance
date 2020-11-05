@@ -1,0 +1,4 @@
+---
+- src: git+https://gitlab.com/redhat-cop/ansible-ssa/role-instance.git
+  name: instance
+  version: master

@@ -1,0 +1,12 @@
+---
+- name: Provision AWS instance
+  connection: local
+  hosts:
+    - localhost
+  vars_files:
+    - vars/main.yml
+
+  tasks:
+    - name: Create AWS instance
+      include_role:
+        name: role-instance
